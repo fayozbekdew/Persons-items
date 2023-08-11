@@ -1,0 +1,36 @@
+li{
+    list-style: none;
+}
+.items{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    width: 100%;
+    max-width: 538px;
+    display: flex;
+    column-gap: 12px;
+    margin-bottom: 24px;
+}
+.item img{
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+}
+.item span{
+    margin-top: 4px;
+}
+.item span h3{
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #0F172A;
+}
+.item span p{
+    color: #64748B;
+    margin-top: 16px;
+}
+.trash-icons{
+    width: 30px;
+    height: 30px;
+}
